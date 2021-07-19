@@ -1,3 +1,44 @@
-h1 {
-    
+
+body {
+    color: #ffffff;
+    background-color: #000000;
+    background-repeat: no-repeat;
 }
+
+h1 {
+    color				: #eaf827 ;
+	font-size			: 400% ;
+	font-weight			: bold ;
+	font-style			: oblique ;
+	margin				: 0px ;
+}
+
+header {
+    background-color: #dcded4;
+    border: 1px solid #cacdbd;
+}
+
+main .flexbox{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+div#sidemenu {
+    background-color: #dcded4;
+    border: 1px solid #cacdbd;
+    flex-basis: 180px;
+    flex-grow: 0;
+}
+
+div#contents {
+    background-color: #dcded4;
+    border: 1px solid #cacdbd;
+    flex-basis: 720px;
+    flex-grow: 1;
+}
+
+footer {
+    background-color: #dcded4;
+    border: 1px solid #cacdbd;
+}
+
