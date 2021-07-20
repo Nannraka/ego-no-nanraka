@@ -101,3 +101,12 @@ footer h5 {
 	margin : 5px ;
     text-align: center;
 }
+
+.yami-button,.aida-button {
+    color: #000000;
+    background-color: #4c02ad;
+    font-weight: bold;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+}
