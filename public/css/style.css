@@ -1,21 +1,38 @@
 
 body {
-    color: #ffffff;
+    color: #000000;
     background-color: #000000;
     background-repeat: no-repeat;
-}
-
-h1 {
-    color				: #eaf827 ;
-	font-size			: 400% ;
-	font-weight			: bold ;
-	font-style			: oblique ;
-	margin				: 0px ;
+    width: 100%;
+    max-width: 1920px;
+    min-width: 720px;
+    margin-left : auto;
+    margin-right: auto;
 }
 
 header {
-    background-color: #dcded4;
+    background-color: #ffffff;
     border: 1px solid #cacdbd;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header h1 {
+	font-size : 400% ;
+	font-weight : bold ;
+	font-style : oblique ;
+	margin : 15px ;
+    text-align: center;
+}
+
+header h2 {
+	font-size : 150% ;
+	font-weight : bold ;
+	font-style : oblique ;
+	margin : 15px ;
+    text-align: center;
 }
 
 main .flexbox{
@@ -23,22 +40,64 @@ main .flexbox{
     flex-wrap: wrap-reverse;
 }
 
-div#sidemenu {
-    background-color: #dcded4;
+div.sidemenu {
+    background-color: #ffffff;
     border: 1px solid #cacdbd;
     flex-basis: 180px;
     flex-grow: 0;
+    margin-left : 0px;
+    margin-right: 10px;
 }
 
-div#contents {
-    background-color: #dcded4;
+div.sidemenu h1{
+	font-size : 150% ;
+	font-weight : bold ;
+	font-style : oblique ;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+div.sidemenu li{
+	font-size : 100% ;
+	font-weight : bold ;
+	font-style : oblique ;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+div.contents {
+    background-color: #ffffff;
     border: 1px solid #cacdbd;
     flex-basis: 720px;
     flex-grow: 1;
+    padding: 5px;
+}
+
+div.contents .preview{
+    border: 1px solid #000000;
+    margin: 5px;
+    padding: 5px;
 }
 
 footer {
-    background-color: #dcded4;
+    background-color: #ffffff;
     border: 1px solid #cacdbd;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
+footer h4 {
+	font-size : 100% ;
+	font-style : oblique ;
+	margin : 5px ;
+    text-align: center;    
+}
+
+footer h5 {
+	font-size : 80% ;
+	font-style : oblique ;
+	margin : 5px ;
+    text-align: center;
+}
